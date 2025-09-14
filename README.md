@@ -18,7 +18,7 @@ This project implements a multi-tenant agent system using Python and FastAPI. Th
 ## Installation
 1. **Clone the Repository** (if applicable):
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/pranjulya/multi-tenant-agent-SOP.git
    cd <repository-directory>
    ```
 
