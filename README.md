@@ -13,7 +13,7 @@ This project implements a multi-tenant agent system using Python and FastAPI. Th
 ## Prerequisites
 - Python 3.8+
 - Dependencies: `fastapi`, `uvicorn`, `pydantic`
-- Optional: A tool like `curl`, Postman, or any HTTP client for testing
+- Optional: A tool like `curl`, Postman, or any HTTP client for testing.
 
 ## Installation
 1. **Clone the Repository** (if applicable):
