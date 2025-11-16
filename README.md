@@ -132,7 +132,7 @@ To make the system production-ready, consider the following enhancements:
 - Deploy the system on a cloud provider (e.g., AWS, GCP) with auto-scaling.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License
 
 ## Contact
 For questions or contributions, please reach out via the repository’s issue tracker or contact the maintainer.
