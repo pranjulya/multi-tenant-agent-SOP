@@ -115,7 +115,7 @@ To make the system production-ready, consider the following enhancements:
 5. **Tool Integration**:
    - Add support for tenant-specific tools (e.g., JIRA, Slack) using a Model Context Protocol (MCP) approach.
    - Example: Implement a tool-calling mechanism where the agent can query external APIs based on tenant configuration.
-6. **Logging and Monitoring**:
+6. **Logging and Monitoring*:
    - Add logging (e.g., with `logging` module) and monitoring (e.g., Prometheus) for observability.
 
 ## Limitations
