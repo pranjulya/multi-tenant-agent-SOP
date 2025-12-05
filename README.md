@@ -8,7 +8,7 @@ This project implements a multi-tenant agent system using Python and FastAPI. Th
 - **Session Management**: Maintains conversation history per tenant for context-aware responses.
 - **FastAPI Server**: Provides a scalable HTTP API for agent interactions.
 - **Simulated LLM**: Includes a placeholder LLM response generator, ready for integration with a real LLM API.
-- **Extensibility**: Easily adaptable for databases, authentication, and external tool integration.
+- **Extensibility**: Easily adaptable for databases, authentication, and external tool integration. future scalable.
 
 ## Prerequisites
 - Python 3.8+
