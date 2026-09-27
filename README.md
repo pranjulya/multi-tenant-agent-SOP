@@ -8,18 +8,18 @@ This project implements a multi-tenant agent system using Python and FastAPI. Th
 - **Session Management**: Maintains conversation history per tenant for context-aware responses.
 - **FastAPI Server**: Provides a scalable HTTP API for agent interactions.
 - **Simulated LLM**: Includes a placeholder LLM response generator, ready for integration with a real LLM API.
-- **Extensibility**: Easily adaptable for databases, authentication, and external tool integration. future scalable.
+- **Extensibility**: Easily adaptable for databases, authentication, and external tool integration, and designed to scale.
 
 ## Prerequisites
 - Python 3.8+
-- Dependencies: `fastapi`, `uvicorn`, `pydantic`, `avi`
+- Dependencies: `fastapi`, `uvicorn`, `pydantic`
 - Optional: A tool like `curl`, Postman, or any HTTP client for testing.
 
 ## Installation
-1. **Clone the Repository** (if applicable):
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/pranjulya/multi-tenant-agent-SOP.git
-   cd <repository-directory>
+   cd multi-tenant-agent-SOP
    ```
 
 2. **Install Dependencies**:
@@ -29,7 +29,7 @@ This project implements a multi-tenant agent system using Python and FastAPI. Th
 
 3. **Run the Server**:
    ```bash
-   python script.py
+   python agent_interaction_system.py
    ```
    The server will start at `http://localhost:8000`.
 
@@ -95,7 +95,7 @@ The system provides two main API endpoints for interacting with the agent and re
   - Behavior: Returns the tenant’s interaction history or a 404 error if the tenant is not found.
 
 ## Project Structure
-- **script.py**: Main application file containing the FastAPI server, tenant data store, and agent logic.
+- **agent_interaction_system.py**: Main application file containing the FastAPI server, tenant data store, and agent logic.
 - **tenant_data**: In-memory dictionary storing tenant-specific interaction history (replace with a database in production).
 - **simulate_llm_response**: Placeholder function for generating agent responses (replace with real LLM integration).
 
@@ -115,7 +115,7 @@ To make the system production-ready, consider the following enhancements:
 5. **Tool Integration**:
    - Add support for tenant-specific tools (e.g., JIRA, Slack) using a Model Context Protocol (MCP) approach.
    - Example: Implement a tool-calling mechanism where the agent can query external APIs based on tenant configuration.
-6. **Logging and Monitoring*:
+6. **Logging and Monitoring**:
    - Add logging (e.g., with `logging` module) and monitoring (e.g., Prometheus) for observability.
 
 ## Limitations
@@ -132,7 +132,7 @@ To make the system production-ready, consider the following enhancements:
 - Deploy the system on a cloud provider (e.g., AWS, GCP) with auto-scaling.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## Contact
 For questions or contributions, please reach out via the repository’s issue tracker or contact the maintainer.
